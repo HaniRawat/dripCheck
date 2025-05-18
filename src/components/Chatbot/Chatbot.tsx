@@ -416,7 +416,7 @@ Create a unique, personalized outfit suggestion that matches ${userPreferences.n
               <div className="w-10 h-10 rounded-full bg-indigo/20 flex items-center justify-center">
                 <Robot className="w-6 h-6 text-indigo" />
               </div>
-              <h2 className="text-xl font-semibold">DripCheck AI Chat</h2>
+              <h2 className="text-xl font-semibold">ForecastFit AI Chat</h2>
             </div>
             <button
               onClick={() => setIsMinimized(!isMinimized)}

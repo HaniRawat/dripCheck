@@ -28,7 +28,7 @@ const About: React.FC = () => {
   return (
     <section id="about" className="bg-dark-lighter">
       <div className="container-custom">
-        <h2 className="section-title">About Our DripCheck AI</h2>
+        <h2 className="section-title">About Our ForecastFit AI</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {features.map((feature, index) => (

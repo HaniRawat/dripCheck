@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     <nav className="fixed top-0 w-full bg-dark/95 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50 shadow-lg">
       <div className="flex items-center gap-2 text-xl font-bold text-primary">
         <TShirt className="w-6 h-6" />
-        <span>DripCheck AI</span>
+        <span>ForecastFit AI</span>
       </div>
 
       {/* Mobile menu button */}

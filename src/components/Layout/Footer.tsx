@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="flex flex-col md:flex-row justify-between items-center pt-6 border-t border-gray-800">
-          <p className="text-gray-400">&copy; 2025 DripCheck AI. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2025 ForecastFit AI. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((item) => (
               <a 

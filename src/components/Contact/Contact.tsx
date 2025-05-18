@@ -34,9 +34,9 @@ const Contact: React.FC = () => {
             
             <div className="space-y-6">
               {[
-                { icon: <MapPin />, title: 'Location', content: '123, acb' },
+                { icon: <MapPin />, title: 'Location', content: 'Faridabad, Haryana' },
                 { icon: <Phone />, title: 'Phone', content: '+1234567890' },
-                { icon: <Mail />, title: 'Email', content: 'support@what2wearai.com' }
+                { icon: <Mail />, title: 'Email', content: 'support@forecastfitai.com' }
               ].map((item, index) => (
                 <div key={index} className="flex gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
