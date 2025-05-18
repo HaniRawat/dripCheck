@@ -58,7 +58,7 @@ const Chatbot: React.FC = () => {
   }, [location]);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   };
 
   const addMessage = (text: string, sender: 'user' | 'bot') => {
@@ -432,10 +432,11 @@ Create a unique, personalized outfit suggestion that matches ${userPreferences.n
             <>
               <div className="p-4 h-96 overflow-y-auto bg-dark-lighter/50">
                 {messages.map((msg, index) => (
-                  <ChatMessage key={index} message={msg} />
+                  <ChatMessage key={index} message={msg}
+                  ref={index === messages.length - 1 ? messagesEndRef : undefined} />
                 ))}
                 {isTyping && <TypingIndicator />}
-                <div ref={messagesEndRef} />
+                {/* <div ref={messagesEndRef} /> */}
               </div>
 
               {/* Chat Input */}
